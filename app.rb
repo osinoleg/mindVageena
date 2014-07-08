@@ -56,17 +56,6 @@ post "/mind_test" do
   puts mindOutPut
   puts mindOutPut["attention"]
   puts mindOutPut["meditation"]
-
-  # settings.lol = mindOutPut
-  # puts settings.lol
-
-  # puts (JSON.parse(request.body.read))["meditation"]  
-  # request.body.rewind
-  # puts JSON.parse(request.body.read)
-  # puts JSON.parse(request.body.read)["attention"]
-  # puts JSON.parse(request.body.read)["meditation"]
-  # @title = "About Me"
-  # erb :"pages/about"
 end
 
 get "/poll_mind_data" do
